@@ -1,0 +1,14 @@
+[project]
+name = "development"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "boto3>=1.42.65",
+    "dotenv>=0.9.9",
+    "fastapi>=0.135.1",
+    "logger>=1.4",
+    "logging>=0.4.9.6",
+    "uvicorn>=0.41.0",
+]
