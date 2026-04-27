@@ -56,12 +56,14 @@ S3_BUCKET_NAME=
 uvicorn main:app --reload
 
 📂 Project Structure
+
 src/
- ├── controllers/
- ├── services/
- ├── repositories/
- ├── utils/
- └── main.py
+ ├── models/        # Data models and schemas
+ ├── routers/       # API endpoints and route definitions
+ ├── services/      # Business logic and processing layer
+ ├── utils/         # Utility functions and helpers
+ ├── main.py        # Application entry point
+ └── settings.py    # Configuration and environment settings
 
 🔐 Security
 - Credentials are stored in environment variables
